@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+      "yaxunit-runner": {
+        "type": "stdio",
+        "command": "java",
+        "args": [
+          "-jar",
+          "tools/mcp/mcp-yaxunit-runner.jar"
+        ], 
+        "env": {
+          "LOGGING_LEVEL_ROOT": "INFO",
+          "SPRING_CONFIG_IMPORT": "file:tools/mcp/project-config.yml, file:tools/mcp/local-env-config.yml"
+        }
+      }
+    }
+  }

@@ -1,0 +1,29 @@
+# Базовые настройки приложения
+app:
+  id: amusement-park
+  format: EDT
+  
+  # Набор исходного кода проекта
+  source-set:
+    # Основная конфигурация
+    - path: "УправлениеПаркомАттракционов"
+      name: configuration
+      type: "CONFIGURATION"
+      purpose: [ "MAIN" ]
+    
+    # Тесты YAxUnit
+    - path: "tests"
+      name: tests
+      type: "EXTENSION"
+      purpose: [ "TESTS" ]
+  
+  # Настройки инструментов
+  tools:
+    # Тип сборщика: DESIGNER или IBMCMD
+    builder: DESIGNER
+    # Настройки EDT CLI
+    edt-cli:
+      auto-start: true
+      startup-timeout-ms: 300000 # 5 минут
+      command-timeout-ms: 600000 # 10 минут
+      ready-check-timeout-ms: 5000
