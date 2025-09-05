@@ -11,11 +11,7 @@
   </synonym>
   <defaultForm>DataProcessor.ПоискИУдалениеДублей.Form.ПоискДублей</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <explanation>
     <key>ru</key>
     <value>Поиск и удаление дублирующихся элементов произвольных справочников</value>
@@ -35,11 +31,7 @@
       <key>ru</key>
       <value>Правила отбора</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -58,11 +50,7 @@
       <key>ru</key>
       <value>Правила поиска</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

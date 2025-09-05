@@ -16,11 +16,7 @@
       <key>ru</key>
       <value>Быстрые настройки</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -30,11 +26,7 @@
       <key>ru</key>
       <value>Выбор варианта отчета</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -53,11 +45,7 @@
       <key>ru</key>
       <value>Выбор финансового периода</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
   </forms>
   <forms uuid="ff4d92a7-5fa3-4a46-a6f5-47c3952edb22">
@@ -93,11 +81,7 @@
       <key>ru</key>
       <value>Панель других отчетов</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -107,11 +91,7 @@
       <key>ru</key>
       <value>Сохранение варианта отчета</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -121,11 +101,7 @@
       <key>ru</key>
       <value>Сохранение варианта отчета в файл</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -135,11 +111,7 @@
       <key>ru</key>
       <value>Условия отборов отчета</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -158,11 +130,7 @@
       <key>ru</key>
       <value>Элемент условного оформления отчета</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

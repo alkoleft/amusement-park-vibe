@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Создание начального образа с файлами</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
   <useStandardCommands>true</useStandardCommands>

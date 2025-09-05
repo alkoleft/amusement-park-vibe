@@ -138,11 +138,7 @@
   </characteristics>
   <createOnInput>DontUse</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
@@ -898,11 +894,7 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -913,11 +905,7 @@
       <value>Файлы</value>
     </synonym>
     <includeHelpInContents>true</includeHelpInContents>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -927,11 +915,7 @@
       <key>ru</key>
       <value>Форма выбора</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -942,11 +926,7 @@
       <value>Форма нового</value>
     </synonym>
     <includeHelpInContents>true</includeHelpInContents>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -956,11 +936,7 @@
       <key>ru</key>
       <value>Форма перетаскивания</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -970,11 +946,7 @@
       <key>ru</key>
       <value>Форма подбора</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

@@ -11,11 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗагрузкаДанныхИзФайла.Form.ЗагрузкаДанныхИзФайла</defaultForm>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <explanation>
     <key>ru</key>
     <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники приложения.</value>
@@ -26,11 +22,7 @@
       <key>ru</key>
       <value>Загрузка данных из файла</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

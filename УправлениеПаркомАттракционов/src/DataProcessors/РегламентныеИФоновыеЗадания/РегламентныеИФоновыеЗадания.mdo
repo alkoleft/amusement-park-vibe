@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.РегламентныеИФоновыеЗадания.Form.РегламентныеИФоновыеЗадания</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="11370667-bec5-4a2d-8aa1-97f4d795718f">
     <name>РегламентныеИФоновыеЗадания</name>
     <synonym>
@@ -32,11 +28,7 @@
       <key>ru</key>
       <value>Фоновое задание</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -46,11 +38,7 @@
       <key>ru</key>
       <value>Регламентное задание</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

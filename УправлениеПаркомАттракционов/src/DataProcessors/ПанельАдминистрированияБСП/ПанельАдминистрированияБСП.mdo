@@ -11,22 +11,14 @@
   </synonym>
   <defaultForm>DataProcessor.ПанельАдминистрированияБСП.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="aa6444a8-6c17-4207-a623-9b734e08e30e">
     <name>ИнтернетПоддержкаИСервисы</name>
     <synonym>
       <key>ru</key>
       <value>Интернет-поддержка и сервисы</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -36,11 +28,7 @@
       <key>ru</key>
       <value>Настройки пользователей и прав</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -51,11 +39,7 @@
       <value>Настройки работы с файлами</value>
     </synonym>
     <comment>АПК:1442 допустимы прямые обращения к метаданным подсистемы &quot;Работа с файлами&quot;</comment>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -74,11 +58,7 @@
       <key>ru</key>
       <value>Обслуживание</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -88,11 +68,7 @@
       <key>ru</key>
       <value>Общие настройки</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -102,11 +78,7 @@
       <key>ru</key>
       <value>Органайзер</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -116,11 +88,7 @@
       <key>ru</key>
       <value>Печатные формы, отчеты и обработки</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -130,11 +98,7 @@
       <key>ru</key>
       <value>Синхронизация данных</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

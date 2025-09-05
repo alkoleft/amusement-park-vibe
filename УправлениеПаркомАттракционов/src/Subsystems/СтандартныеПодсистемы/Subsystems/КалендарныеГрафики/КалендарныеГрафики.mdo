@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Календарные графики</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>Subsystem.СтандартныеПодсистемы.Subsystem.КалендарныеГрафики</content>
   <content>CommonModule.КалендарныеГрафики</content>
   <content>CommonForm.ВыборДаты</content>

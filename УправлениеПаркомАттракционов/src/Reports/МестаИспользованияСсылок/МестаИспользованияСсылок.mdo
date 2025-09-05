@@ -13,11 +13,7 @@
   <mainDataCompositionSchema>Report.МестаИспользованияСсылок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <templates uuid="cd6770d5-cd3c-47af-bc46-c865993adf63">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

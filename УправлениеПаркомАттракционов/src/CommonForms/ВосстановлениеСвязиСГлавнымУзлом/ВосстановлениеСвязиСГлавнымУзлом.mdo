@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Восстановление связи с главным узлом</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
 </mdclass:CommonForm>

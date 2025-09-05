@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Дополнительные отчеты и обработки</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonForm.ДополнительныеОтчетыИОбработки</content>
   <content>Enum.ВидыДополнительныхОтчетовИОбработок</content>
   <content>CommonCommand.СозданиеСвязанныхОбъектов</content>

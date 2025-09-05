@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Свойства</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonPicture.ДополнительныеРеквизитыСведения</content>
   <content>CommonPicture.ДополнительныеСведения</content>
   <content>CommonModule.УправлениеСвойствамиКлиент</content>

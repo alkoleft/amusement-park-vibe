@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Управление доступом</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>SessionParameter.ВидыДоступаСОтключеннымИспользованием</content>
   <content>SessionParameter.ВидыДоступаБезГруппДляЗначенияДоступа</content>
   <content>Role.ИзменениеУчастниковГруппДоступа</content>

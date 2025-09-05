@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.АктивныеПользователи.Form.АктивныеПользователи</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="e5beda2c-f4e2-4a6b-a1d0-a877eb0c9f5b">
     <name>АктивныеПользователи</name>
     <synonym>

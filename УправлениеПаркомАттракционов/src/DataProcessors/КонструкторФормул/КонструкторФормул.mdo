@@ -10,11 +10,7 @@
     <value>Конструктор формул</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="6d40a555-9c20-4643-b689-2f61df772f78">
     <name>РедактированиеФормулы</name>
     <synonym>

@@ -12,11 +12,7 @@
   <comment>АПК:566 АПК:574  работа в мобильном и веб-клиенте не предусмотрена</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ОписаниеОбработчиковОбновления.Form.ФормаСпискаОбработчиков</defaultForm>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <attributes uuid="f401c5be-2698-452d-8908-08faad120a47">
     <name>КаталогSRC</name>
     <synonym>
@@ -1618,11 +1614,7 @@
       <key>ru</key>
       <value>Форма списка обработчиков</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -1632,11 +1624,7 @@
       <key>ru</key>
       <value>Форма обработчика</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

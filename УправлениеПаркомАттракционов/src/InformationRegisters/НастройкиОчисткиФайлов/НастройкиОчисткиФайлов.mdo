@@ -51,11 +51,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="b37722c3-e29f-4a40-b4eb-0317919fc7a5">
     <name>ПравилоОтбора</name>
@@ -189,11 +185,7 @@
       <key>ru</key>
       <value>Форма записи</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

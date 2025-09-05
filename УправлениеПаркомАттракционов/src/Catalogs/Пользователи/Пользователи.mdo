@@ -173,11 +173,7 @@
   </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <dataLockFields>Catalog.Пользователи.StandardAttribute.Description</dataLockFields>
   <dataLockFields>Catalog.Пользователи.Attribute.ИдентификаторПользователяИБ</dataLockFields>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -756,11 +752,7 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -779,11 +771,7 @@
       <key>ru</key>
       <value>Пользователи информационной базы</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -793,11 +781,7 @@
       <key>ru</key>
       <value>Выбор пользователя операционной системы</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -807,11 +791,7 @@
       <key>ru</key>
       <value>Ограничение на вход в приложение</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

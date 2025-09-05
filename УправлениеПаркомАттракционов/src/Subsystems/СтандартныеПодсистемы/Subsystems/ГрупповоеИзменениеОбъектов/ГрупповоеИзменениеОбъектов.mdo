@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Групповое изменение объектов</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
   <content>CommonModule.ГрупповоеИзменениеОбъектовКлиент</content>
   <content>CommonModule.ГрупповоеИзменениеОбъектовПереопределяемый</content>

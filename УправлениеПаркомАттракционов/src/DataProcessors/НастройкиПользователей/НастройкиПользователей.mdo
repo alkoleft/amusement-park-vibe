@@ -12,22 +12,14 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.НастройкиПользователей.Form.НастройкиПользователей</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="14002d51-87d4-4647-92ef-a9b1935cb666">
     <name>ВыборПользователей</name>
     <synonym>
       <key>ru</key>
       <value>Выбор пользователей</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -37,11 +29,7 @@
       <key>ru</key>
       <value>Настройки пользователей</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
     <extendedPresentation>
@@ -55,11 +43,7 @@
       <key>ru</key>
       <value>Очистка настроек пользователей</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -69,11 +53,7 @@
       <key>ru</key>
       <value>Выбор настроек пользователя</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -83,11 +63,7 @@
       <key>ru</key>
       <value>Копирование настроек пользователей</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

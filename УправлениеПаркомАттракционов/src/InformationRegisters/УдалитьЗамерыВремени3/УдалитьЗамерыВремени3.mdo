@@ -50,11 +50,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="cde46d6d-9f8a-45b6-98a7-9411030ccd72">
     <name>ВремяВыполнения</name>

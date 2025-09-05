@@ -50,11 +50,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <dataLockControlMode>Managed</dataLockControlMode>
   <listPresentation>
     <key>ru</key>
@@ -172,11 +168,7 @@
       <value>Выбора режима открытия макета</value>
     </synonym>
     <includeHelpInContents>true</includeHelpInContents>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -186,11 +178,7 @@
       <key>ru</key>
       <value>Макеты печатных форм</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -200,11 +188,7 @@
       <key>ru</key>
       <value>Редактирование макета</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

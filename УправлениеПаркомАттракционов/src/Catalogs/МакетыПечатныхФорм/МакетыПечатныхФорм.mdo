@@ -329,11 +329,7 @@
       <key>ru</key>
       <value>Условия видимости в подменю &quot;Печать&quot;</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

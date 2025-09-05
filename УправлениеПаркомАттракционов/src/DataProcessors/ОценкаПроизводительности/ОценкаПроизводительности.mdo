@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ОценкаПроизводительности.Form.АвтоматическийЭкспортЗамеровПроизводительности</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <attributes uuid="e20593fd-b3e3-41d2-8c8d-97b5d6148fa4">
     <name>ДатаНачала</name>
     <synonym>
@@ -253,11 +249,7 @@
       <key>ru</key>
       <value>Автоматический экспорт замеров производительности</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -267,11 +259,7 @@
       <key>ru</key>
       <value>Экспорт замеров производительности</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -281,11 +269,7 @@
       <key>ru</key>
       <value>Импорт замеров производительности</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -295,11 +279,7 @@
       <key>ru</key>
       <value>Подбор целевого времени ключевой операции</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

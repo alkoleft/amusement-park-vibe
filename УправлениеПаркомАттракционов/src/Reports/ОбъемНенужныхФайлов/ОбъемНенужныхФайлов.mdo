@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ОбъемНенужныхФайлов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <templates uuid="411db885-f761-44e5-bdd1-9fdf9e741ac1">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

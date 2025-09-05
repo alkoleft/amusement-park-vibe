@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.БлокировкаРаботыПользователей.Form.БлокировкаСоединенийСИнформационнойБазой</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <attributes uuid="e4abafc6-f859-4d96-9818-5b9bf8d66d69">
     <name>ЗапретитьРаботуПользователей</name>
     <synonym>

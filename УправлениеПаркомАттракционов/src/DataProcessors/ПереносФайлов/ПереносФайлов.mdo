@@ -11,11 +11,7 @@
   </synonym>
   <defaultForm>DataProcessor.ПереносФайлов.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <explanation>
     <key>ru</key>
     <value>Перенос файлов в тома хранения файлов</value>

@@ -12,22 +12,14 @@
   <comment>АПК:78-выкл для вызова различных этапов обновления</comment>
   <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.РезультатыОбновленияПрограммы</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="d5e1806b-9827-40ab-9cfa-23c22456d137">
     <name>РезультатыОбновленияПрограммы</name>
     <synonym>
       <key>ru</key>
       <value>Результаты обновления приложения</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -37,11 +29,7 @@
       <key>ru</key>
       <value>Отложенные обработчики</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -51,11 +39,7 @@
       <key>ru</key>
       <value>Обновление версии приложения</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -65,11 +49,7 @@
       <key>ru</key>
       <value>Сообщение о неудачном обновлении</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -106,11 +86,7 @@
       <key>ru</key>
       <value>Очистка устаревших данных</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

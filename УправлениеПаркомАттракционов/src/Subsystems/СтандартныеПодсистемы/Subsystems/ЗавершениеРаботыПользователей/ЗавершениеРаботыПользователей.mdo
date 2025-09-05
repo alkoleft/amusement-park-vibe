@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Завершение работы пользователей</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonModule.СоединенияИБ</content>
   <content>CommonModule.СоединенияИБКлиент</content>
   <content>DataProcessor.БлокировкаРаботыПользователей</content>

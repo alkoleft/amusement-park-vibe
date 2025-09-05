@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Префиксация объектов</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonModule.ПрефиксацияОбъектовСобытия</content>
   <content>CommonModule.ПрефиксацияОбъектовПовтИсп</content>
   <content>CommonModule.ПрефиксацияОбъектовКлиентСервер</content>

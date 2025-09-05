@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Запрет редактирования реквизитов объектов</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>Role.РедактированиеРеквизитовОбъектов</content>
   <content>CommonModule.ЗапретРедактированияРеквизитовОбъектовКлиент</content>
   <content>Subsystem.СтандартныеПодсистемы.Subsystem.ЗапретРедактированияРеквизитовОбъектов</content>

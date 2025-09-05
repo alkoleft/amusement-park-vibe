@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Печать</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonModule.УправлениеПечатьюКлиент</content>
   <content>CommonModule.УправлениеПечатью</content>
   <content>CommandGroup.Печать</content>

@@ -10,22 +10,14 @@
     <value>Ввод контактной информации</value>
   </synonym>
   <defaultForm>DataProcessor.ВводКонтактнойИнформации.Form.ВводАдресаВСвободнойФорме</defaultForm>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="86b5303b-d967-4bc6-b2da-066c5a58613f">
     <name>ВводАдресаВСвободнойФорме</name>
     <synonym>
       <key>ru</key>
       <value>Ввод адреса в свободной форме</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -35,11 +27,7 @@
       <key>ru</key>
       <value>Ввод телефона</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -49,11 +37,7 @@
       <key>ru</key>
       <value>История контактной информации</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

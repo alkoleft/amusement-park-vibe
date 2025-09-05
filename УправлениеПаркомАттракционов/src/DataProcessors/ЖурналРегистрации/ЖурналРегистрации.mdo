@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЖурналРегистрации.Form.ЖурналРегистрации</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="5c63e7cd-ecdb-45ae-a589-f6c38f5a8e76">
     <name>ЖурналРегистрации</name>
     <synonym>
@@ -50,11 +46,7 @@
       <key>ru</key>
       <value>Событие</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Настройка порядка элементов</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonModule.НастройкаПорядкаЭлементовСлужебный</content>
   <content>CommonModule.НастройкаПорядкаЭлементов</content>
   <content>DefinedType.ОбъектСНастраиваемымПорядком</content>

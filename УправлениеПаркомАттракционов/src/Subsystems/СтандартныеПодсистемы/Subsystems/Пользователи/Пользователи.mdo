@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Пользователи</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonPicture.СостоянияПользователей</content>
   <content>SessionParameter.ТекущийПользователь</content>
   <content>CommonModule.Пользователи</content>

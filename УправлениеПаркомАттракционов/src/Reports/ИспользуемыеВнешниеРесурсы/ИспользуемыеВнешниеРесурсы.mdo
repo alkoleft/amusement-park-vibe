@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <templates uuid="6feb2278-9149-47f8-a0ec-eb4bd9f44716">
     <name>ПредставленияРазрешений</name>
     <synonym>

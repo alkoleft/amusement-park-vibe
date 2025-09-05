@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Контактная информация</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonPicture.КонтактнаяИнформация</content>
   <content>CommonModule.УправлениеКонтактнойИнформациейКлиент</content>
   <content>CommonModule.УправлениеКонтактнойИнформацией</content>

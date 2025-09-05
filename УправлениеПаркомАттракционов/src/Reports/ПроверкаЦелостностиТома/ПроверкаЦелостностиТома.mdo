@@ -12,11 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ПроверкаЦелостностиТома.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <templates uuid="e93bdb44-64b3-43d8-b15a-c561dbb91974">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

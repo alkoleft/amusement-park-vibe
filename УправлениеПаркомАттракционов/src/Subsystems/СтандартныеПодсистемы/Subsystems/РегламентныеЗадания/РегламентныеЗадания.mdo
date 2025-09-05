@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Регламентные задания</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonPicture.ВыполнитьРегламентноеЗаданиеВручную</content>
   <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
   <content>CommonModule.РегламентныеЗаданияСлужебный</content>

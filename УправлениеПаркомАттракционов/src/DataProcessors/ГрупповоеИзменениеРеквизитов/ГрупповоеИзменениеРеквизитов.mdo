@@ -11,11 +11,7 @@
   </synonym>
   <defaultForm>DataProcessor.ГрупповоеИзменениеРеквизитов.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <attributes uuid="7d2a37b1-a1a0-435a-846a-95e255655044">
     <name>ИзменятьВТранзакции</name>
     <synonym>
@@ -215,11 +211,7 @@
       <key>ru</key>
       <value>Дополнительные параметры</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -229,11 +221,7 @@
       <key>ru</key>
       <value>Редактирование формулы</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

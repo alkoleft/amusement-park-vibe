@@ -10,22 +10,14 @@
     <value>Расширенный ввод контактной информации</value>
   </synonym>
   <defaultForm>DataProcessor.РасширенныйВводКонтактнойИнформации.Form.ВводАдреса</defaultForm>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="8be29533-38de-413d-b420-7dac2e80af6c">
     <name>ВводАдреса</name>
     <synonym>
       <key>ru</key>
       <value>Ввод адреса</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -35,11 +27,7 @@
       <key>ru</key>
       <value>Выбор адреса по почтовому индексу</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -49,11 +37,7 @@
       <key>ru</key>
       <value>Выбор адреса по уровню</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -72,11 +56,7 @@
       <key>ru</key>
       <value>Выбор улицы</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -95,11 +75,7 @@
       <key>ru</key>
       <value>Населенный пункт адреса</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -109,11 +85,7 @@
       <key>ru</key>
       <value>Настройки адреса</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

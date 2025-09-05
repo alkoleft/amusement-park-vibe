@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Работа с почтовыми сообщениями</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>CommonModule.РаботаСПочтовымиСообщениямиСлужебный</content>
   <content>CommonModule.РаботаСПочтовымиСообщениямиКлиент</content>
   <content>CommonModule.РаботаСПочтовымиСообщениями</content>

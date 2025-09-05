@@ -11,11 +11,7 @@
   </synonym>
   <defaultForm>DataProcessor.НастройкаРазрешенийНаИспользованиеВнешнихРесурсов.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="5079f17e-dfd6-43f4-83fa-6ac408e5bd3b">
     <name>ИнициализацияЗапросаРазрешений</name>
     <synonym>
@@ -31,11 +27,7 @@
       <key>ru</key>
       <value>Настройка разрешений на использование внешних ресурсов</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -45,11 +37,7 @@
       <key>ru</key>
       <value>Настройки использования профилей безопасности</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

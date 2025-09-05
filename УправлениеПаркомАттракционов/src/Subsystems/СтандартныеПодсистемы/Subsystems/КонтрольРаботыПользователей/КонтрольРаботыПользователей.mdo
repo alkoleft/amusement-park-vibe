@@ -5,11 +5,7 @@
     <key>ru</key>
     <value>Контроль работы пользователей</value>
   </synonym>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <content>Report.АнализЖурналаРегистрации</content>
   <content>CommonModule.КонтрольРаботыПользователейСлужебный</content>
   <content>CommonModule.КонтрольРаботыПользователейСлужебныйКлиент</content>

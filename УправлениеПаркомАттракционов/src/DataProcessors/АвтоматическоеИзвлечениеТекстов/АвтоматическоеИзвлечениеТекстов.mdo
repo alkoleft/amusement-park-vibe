@@ -11,11 +11,7 @@
   </synonym>
   <defaultForm>DataProcessor.АвтоматическоеИзвлечениеТекстов.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
+
   <forms uuid="61cac5f7-320c-4098-9078-44fadcdeb219">
     <name>Форма</name>
     <synonym>
