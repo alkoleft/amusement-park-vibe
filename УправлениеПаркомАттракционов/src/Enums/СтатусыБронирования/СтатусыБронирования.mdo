@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12345678-1234-1234-1234-123456789201">
+  <name>СтатусыБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы бронирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12345678-1234-1234-1234-123456789202">
+    <name>Активная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12345678-1234-1234-1234-123456789203">
+    <name>Оплачена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12345678-1234-1234-1234-123456789204">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12345678-1234-1234-1234-123456789205">
+    <name>Истекла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Истекла</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

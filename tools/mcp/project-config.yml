@@ -7,7 +7,7 @@ app:
   source-set:
     # Основная конфигурация
     - path: "УправлениеПаркомАттракционов"
-      name: configuration
+      name: УправлениеПаркомАттракционов
       type: "CONFIGURATION"
       purpose: [ "MAIN" ]
     
