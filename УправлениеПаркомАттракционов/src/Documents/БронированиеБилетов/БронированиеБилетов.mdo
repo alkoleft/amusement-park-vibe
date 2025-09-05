@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12345678-1234-1234-1234-123456789301">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61eedc2b-53a5-4549-877b-301da403b929">
   <producedTypes>
-    <objectType typeId="12345678-1234-1234-1234-123456789302" valueTypeId="12345678-1234-1234-1234-123456789303"/>
-    <refType typeId="12345678-1234-1234-1234-123456789304" valueTypeId="12345678-1234-1234-1234-123456789305"/>
-    <selectionType typeId="12345678-1234-1234-1234-123456789306" valueTypeId="12345678-1234-1234-1234-123456789307"/>
-    <listType typeId="12345678-1234-1234-1234-123456789308" valueTypeId="12345678-1234-1234-1234-123456789309"/>
-    <managerType typeId="12345678-1234-1234-1234-123456789310" valueTypeId="12345678-1234-1234-1234-123456789311"/>
+    <objectType typeId="a7987385-6315-443e-85c2-1880f00131f8" valueTypeId="db3b7668-42ac-4846-8f2e-4d16868fc000"/>
+    <refType typeId="f40d80a8-4d64-42ac-98c6-81d8609bd557" valueTypeId="46c09c92-41f9-44ea-b8a0-00e85527e7a0"/>
+    <selectionType typeId="dda7d186-cfa7-4217-9bb9-1cef8858fcfa" valueTypeId="a20cc31d-e338-4ae7-8181-3dd2bd9f4aca"/>
+    <listType typeId="829ddcc7-2f62-4590-a814-d2770fb8d8e2" valueTypeId="a1d48b0d-7ddf-4c26-b32f-fd3408c52355"/>
+    <managerType typeId="4f9a3a31-7cc6-4385-9f69-8ba893db041f" valueTypeId="289bb0d2-6ed9-47a9-845c-35b66ad6da9e"/>
   </producedTypes>
   <name>БронированиеБилетов</name>
   <synonym>
@@ -73,7 +73,7 @@
   <registerRecords>AccumulationRegister.БронированиеПосещений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="12345678-1234-1234-1234-123456789312">
+  <attributes uuid="5d413f99-bd5b-4039-b3fc-76c0d90bc305">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -89,7 +89,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="12345678-1234-1234-1234-123456789313">
+  <attributes uuid="487ab817-4169-49fc-8e7d-8f35a3af90d9">
     <name>СтатусБрони</name>
     <synonym>
       <key>ru</key>
@@ -101,13 +101,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.СтатусыБронирования.Активная</value>
-    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="12345678-1234-1234-1234-123456789314">
+  <attributes uuid="60196927-c2e9-4810-a4a1-fad680c838f0">
     <name>ВремяИстечения</name>
     <synonym>
       <key>ru</key>
@@ -126,7 +123,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="12345678-1234-1234-1234-123456789315">
+  <attributes uuid="a3483678-f7b8-4fcb-bf83-98008c7221bc">
     <name>СуммаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -146,7 +143,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="12345678-1234-1234-1234-123456789316">
+  <attributes uuid="979169ed-a502-48bb-9898-5ca91889929a">
     <name>СуммаБонусов</name>
     <synonym>
       <key>ru</key>
@@ -166,7 +163,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="12345678-1234-1234-1234-123456789317">
+  <attributes uuid="4bc72bb7-cd93-4b85-ade0-76483d5be38c">
     <name>КлючАПИ</name>
     <synonym>
       <key>ru</key>
@@ -187,10 +184,10 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="12345678-1234-1234-1234-123456789318">
+  <tabularSections uuid="04de5edf-4c3c-4e6d-acf6-3891e49e4131">
     <producedTypes>
-      <objectType typeId="12345678-1234-1234-1234-123456789319" valueTypeId="12345678-1234-1234-1234-123456789320"/>
-      <rowType typeId="12345678-1234-1234-1234-123456789321" valueTypeId="12345678-1234-1234-1234-123456789322"/>
+      <objectType typeId="bbf13a42-d258-461c-a28f-6e8780cc700e" valueTypeId="8510fc83-e1db-4941-aa35-97014850fc06"/>
+      <rowType typeId="beb486bd-b350-49e3-8ba0-06075a623105" valueTypeId="61eedc2b-53a5-4549-877b-301da403b929"/>
     </producedTypes>
     <name>Позиции</name>
     <synonym>
@@ -205,7 +202,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="12345678-1234-1234-1234-123456789323">
+    <attributes uuid="0c330079-07e1-4a05-9283-ae4a3c9ae271">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -220,7 +217,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="12345678-1234-1234-1234-123456789324">
+    <attributes uuid="8e8dfeff-e625-47e6-9df5-eae87a6a6062">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -240,7 +237,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="12345678-1234-1234-1234-123456789325">
+    <attributes uuid="1acba6a8-1cf2-490b-ad87-0e4ab1f35999">
       <name>Цена</name>
       <synonym>
         <key>ru</key>
@@ -260,7 +257,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="12345678-1234-1234-1234-123456789326">
+    <attributes uuid="62664851-a2bb-4a6d-9d34-41b32f03f526">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>
@@ -279,7 +276,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="12345678-1234-1234-1234-123456789327">
+    <attributes uuid="cf1cbd34-1b9e-4a7c-9da8-45e0370ba29b">
       <name>ДатаПосещения</name>
       <synonym>
         <key>ru</key>
@@ -294,7 +291,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="12345678-1234-1234-1234-123456789328">
+    <attributes uuid="5a65e0d3-91ea-4e93-a338-c20b8a23e036">
       <name>ВремяПосещения</name>
       <synonym>
         <key>ru</key>
@@ -312,4 +309,22 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="9d01fd8f-8c05-4063-9ae0-272a5cb72c00">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="62e326a7-4d7d-42c9-95b3-97d9c1e8ea0c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

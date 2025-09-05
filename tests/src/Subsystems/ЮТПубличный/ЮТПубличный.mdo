@@ -47,6 +47,7 @@
   <content>CommonModule.ЮТУтвержденияИБ</content>
   <content>CommonModule.ЮТФабрика</content>
   <content>CommonModule.ЮТФайлы</content>
+  <content>CommonModule.ТестыОнлайнПродажиСервер</content>
   <content>DataProcessor.ЮТHTTPServiceRequest</content>
   <content>DataProcessor.ЮТHTTPОтвет</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>

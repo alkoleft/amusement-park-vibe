@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12345678-1234-1234-1234-123456789012">
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837541d7-c1df-4db6-80e0-53d9dba448e6">
   <name>api</name>
   <synonym>
     <key>ru</key>
@@ -8,135 +8,125 @@
   <rootURL>api/v1</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
-  <urlTemplates uuid="12345678-1234-1234-1234-123456789013">
+  <urlTemplates uuid="8d558062-c495-45ec-b657-fd7f7a6fbe17">
     <name>products</name>
     <synonym>
       <key>ru</key>
       <value>Номенклатура</value>
     </synonym>
-    <template>products</template>
-    <methods uuid="12345678-1234-1234-1234-123456789014">
-      <name>ПолучитьСписокНоменклатуры</name>
+    <template>/products/*</template>
+    <methods uuid="8e27045a-8bbb-466c-b150-1ed3f1206f9a">
+      <name>GET</name>
       <synonym>
         <key>ru</key>
-        <value>Получить список номенклатуры</value>
+        <value>GET</value>
       </synonym>
       <httpMethod>GET</httpMethod>
-      <template>products</template>
-    </methods>
-    <methods uuid="12345678-1234-1234-1234-123456789015">
-      <name>ПолучитьДанныеНоменклатуры</name>
-      <synonym>
-        <key>ru</key>
-        <value>Получить данные номенклатуры</value>
-      </synonym>
-      <httpMethod>GET</httpMethod>
-      <template>products/{id}</template>
+      <handler>ProductsGET</handler>
     </methods>
   </urlTemplates>
-  <urlTemplates uuid="12345678-1234-1234-1234-123456789016">
+  <urlTemplates uuid="e26b4770-6759-4509-a116-7978248e3f8e">
     <name>customers</name>
     <synonym>
       <key>ru</key>
       <value>Клиенты</value>
     </synonym>
-    <template>customers</template>
-    <methods uuid="12345678-1234-1234-1234-123456789017">
-      <name>НайтиКлиента</name>
+    <template>/customers/*</template>
+    <methods uuid="c149286d-5b32-4c1c-8ae5-2f80d2e209e6">
+      <name>GET</name>
       <synonym>
         <key>ru</key>
-        <value>Найти клиента</value>
+        <value>GET</value>
       </synonym>
       <httpMethod>GET</httpMethod>
-      <template>customers/search</template>
+      <handler>CustomersGET</handler>
     </methods>
-    <methods uuid="12345678-1234-1234-1234-123456789018">
-      <name>СоздатьКлиента</name>
+    <methods uuid="b78b2980-f086-43bc-b0df-118b3cbb51bc">
+      <name>POST</name>
       <synonym>
         <key>ru</key>
-        <value>Создать клиента</value>
+        <value>POST</value>
       </synonym>
       <httpMethod>POST</httpMethod>
-      <template>customers</template>
-    </methods>
-    <methods uuid="12345678-1234-1234-1234-123456789019">
-      <name>ПолучитьБалансБонусов</name>
-      <synonym>
-        <key>ru</key>
-        <value>Получить баланс бонусов</value>
-      </synonym>
-      <httpMethod>GET</httpMethod>
-      <template>customers/{id}/bonus</template>
+      <handler>CustomersPOST</handler>
     </methods>
   </urlTemplates>
-  <urlTemplates uuid="12345678-1234-1234-1234-123456789020">
+  <urlTemplates uuid="e02da286-3d76-46ea-9c9d-56fee09a0e51">
     <name>reservations</name>
     <synonym>
       <key>ru</key>
       <value>Бронирование</value>
     </synonym>
-    <template>reservations</template>
-    <methods uuid="12345678-1234-1234-1234-123456789021">
-      <name>СоздатьБронирование</name>
+    <template>/reservations/*</template>
+    <methods uuid="4d6b395c-2593-4fb0-b218-e1df2d94a6ec">
+      <name>GET</name>
       <synonym>
         <key>ru</key>
-        <value>Создать бронирование</value>
-      </synonym>
-      <httpMethod>POST</httpMethod>
-      <template>reservations</template>
-    </methods>
-    <methods uuid="12345678-1234-1234-1234-123456789022">
-      <name>ПолучитьСтатусБронирования</name>
-      <synonym>
-        <key>ru</key>
-        <value>Получить статус бронирования</value>
+        <value>GET</value>
       </synonym>
       <httpMethod>GET</httpMethod>
-      <template>reservations/{id}</template>
+      <handler>ReservationsGET</handler>
     </methods>
-    <methods uuid="12345678-1234-1234-1234-123456789023">
-      <name>ОтменитьБронирование</name>
+    <methods uuid="d290172d-e9f6-4c17-9676-6ab67cb1ec25">
+      <name>POST</name>
       <synonym>
         <key>ru</key>
-        <value>Отменить бронирование</value>
-      </synonym>
-      <httpMethod>DELETE</httpMethod>
-      <template>reservations/{id}</template>
-    </methods>
-    <methods uuid="12345678-1234-1234-1234-123456789024">
-      <name>ПодтвердитьОплатуБронирования</name>
-      <synonym>
-        <key>ru</key>
-        <value>Подтвердить оплату бронирования</value>
+        <value>POST</value>
       </synonym>
       <httpMethod>POST</httpMethod>
-      <template>reservations/{id}/payment</template>
+      <handler>ReservationsPOST</handler>
+    </methods>
+    <methods uuid="f25ace4a-4208-484a-9b1d-4f5d60d4d786">
+      <name>PUT</name>
+      <synonym>
+        <key>ru</key>
+        <value>PUT</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>ReservationsPUT</handler>
+    </methods>
+    <methods uuid="22eac871-2157-4e0a-8a5f-35a5a48ae7bf">
+      <name>DELETE</name>
+      <synonym>
+        <key>ru</key>
+        <value>DELETE</value>
+      </synonym>
+      <httpMethod>DELETE</httpMethod>
+      <handler>ReservationsDELETE</handler>
     </methods>
   </urlTemplates>
-  <urlTemplates uuid="12345678-1234-1234-1234-123456789025">
+  <urlTemplates uuid="2f02d270-45af-4220-b0df-305bcbd397b5">
     <name>tickets</name>
     <synonym>
       <key>ru</key>
       <value>Билеты</value>
     </synonym>
-    <template>tickets</template>
-    <methods uuid="12345678-1234-1234-1234-123456789026">
-      <name>ПолучитьИнформациюОБилете</name>
+    <template>/tickets/{id}</template>
+    <methods uuid="2640b6ee-ccfb-4805-89f5-6bdc7cff5a02">
+      <name>GET</name>
       <synonym>
         <key>ru</key>
-        <value>Получить информацию о билете</value>
+        <value>GET</value>
       </synonym>
       <httpMethod>GET</httpMethod>
-      <template>tickets/{id}</template>
+      <handler>TicketsGET</handler>
     </methods>
-    <methods uuid="12345678-1234-1234-1234-123456789027">
-      <name>ПолучитьБилетыКлиента</name>
+  </urlTemplates>
+  <urlTemplates uuid="26998d31-e7c8-4b4b-bfdf-690a7f41b994">
+    <name>customer_tickets</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билеты клиента</value>
+    </synonym>
+    <template>/customers/{id}/tickets</template>
+    <methods uuid="d8d1d786-4ea9-482b-a1e0-4cf1595c0fe1">
+      <name>GET</name>
       <synonym>
         <key>ru</key>
-        <value>Получить билеты клиента</value>
+        <value>GET</value>
       </synonym>
       <httpMethod>GET</httpMethod>
-      <template>customers/{id}/tickets</template>
+      <handler>CustomerTicketsGET</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>
