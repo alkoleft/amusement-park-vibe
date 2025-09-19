@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32327054-a848-4cc4-a4db-1f58a9957b75">
+  <producedTypes>
+    <refType typeId="442826bc-3e07-470a-a351-682ff0b5228c" valueTypeId="751fb103-8d28-43ce-ae1e-756c11eb5f89"/>
+    <listType typeId="56201f26-1b7d-48f9-ba4b-9482402f38e1" valueTypeId="00fdfd1d-389b-4668-816d-448cbba5c335"/>
+    <managerType typeId="9a75783b-3cf8-4d63-993e-1ab13f8b9b5a" valueTypeId="1d659438-ea68-47f5-bc7e-c6d9b649d67a"/>
+  </producedTypes>
+  <name>СтатусыБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы бронирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="154c2bc9-2678-45e9-9c07-134229a7caa1">
+    <name>Активная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f389fdf-8580-4f15-9a99-084748822dbf">
+    <name>Оплачена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60fb058e-68c0-4c7a-a510-d1d3d2bb783b">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e215a15-bda8-4783-b036-cf40f4baef24">
+    <name>Истекла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Истекла</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

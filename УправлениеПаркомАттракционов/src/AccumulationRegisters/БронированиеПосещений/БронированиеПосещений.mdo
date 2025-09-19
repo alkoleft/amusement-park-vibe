@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12345678-1234-1234-1234-123456789401">
+  <producedTypes>
+    <selectionType typeId="12345678-1234-1234-1234-123456789402" valueTypeId="12345678-1234-1234-1234-123456789403"/>
+    <listType typeId="12345678-1234-1234-1234-123456789404" valueTypeId="12345678-1234-1234-1234-123456789405"/>
+    <managerType typeId="12345678-1234-1234-1234-123456789406" valueTypeId="12345678-1234-1234-1234-123456789407"/>
+    <recordSetType typeId="12345678-1234-1234-1234-123456789408" valueTypeId="12345678-1234-1234-1234-123456789409"/>
+    <recordKeyType typeId="12345678-1234-1234-1234-123456789410" valueTypeId="12345678-1234-1234-1234-123456789411"/>
+    <recordType typeId="12345678-1234-1234-1234-123456789412" valueTypeId="12345678-1234-1234-1234-123456789413"/>
+  </producedTypes>
+  <name>БронированиеПосещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование посещений</value>
+  </synonym>
+  <comment>Регистр для учета забронированных посещений аттракционов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="12345678-1234-1234-1234-123456789414">
+    <name>БронированиеБилетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бронирование билетов</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.БронированиеБилетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="12345678-1234-1234-1234-123456789415">
+    <name>ВидАттракциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид аттракциона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАттракционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="12345678-1234-1234-1234-123456789416">
+    <name>ДатаПосещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата посещения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <resources uuid="12345678-1234-1234-1234-123456789417">
+    <name>КоличествоПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество посещений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+</mdclass:AccumulationRegister>

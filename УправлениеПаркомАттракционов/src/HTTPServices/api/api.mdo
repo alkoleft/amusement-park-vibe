@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837541d7-c1df-4db6-80e0-53d9dba448e6">
+  <name>api</name>
+  <synonym>
+    <key>ru</key>
+    <value>API для онлайн продажи билетов</value>
+  </synonym>
+  <rootURL>api/v1</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="8d558062-c495-45ec-b657-fd7f7a6fbe17">
+    <name>products</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <template>/products/*</template>
+    <methods uuid="8e27045a-8bbb-466c-b150-1ed3f1206f9a">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <httpMethod>GET</httpMethod>
+      <handler>ProductsGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e26b4770-6759-4509-a116-7978248e3f8e">
+    <name>customers</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиенты</value>
+    </synonym>
+    <template>/customers/*</template>
+    <methods uuid="c149286d-5b32-4c1c-8ae5-2f80d2e209e6">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <httpMethod>GET</httpMethod>
+      <handler>CustomersGET</handler>
+    </methods>
+    <methods uuid="b78b2980-f086-43bc-b0df-118b3cbb51bc">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>CustomersPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e02da286-3d76-46ea-9c9d-56fee09a0e51">
+    <name>reservations</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бронирование</value>
+    </synonym>
+    <template>/reservations/*</template>
+    <methods uuid="4d6b395c-2593-4fb0-b218-e1df2d94a6ec">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <httpMethod>GET</httpMethod>
+      <handler>ReservationsGET</handler>
+    </methods>
+    <methods uuid="d290172d-e9f6-4c17-9676-6ab67cb1ec25">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ReservationsPOST</handler>
+    </methods>
+    <methods uuid="f25ace4a-4208-484a-9b1d-4f5d60d4d786">
+      <name>PUT</name>
+      <synonym>
+        <key>ru</key>
+        <value>PUT</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>ReservationsPUT</handler>
+    </methods>
+    <methods uuid="22eac871-2157-4e0a-8a5f-35a5a48ae7bf">
+      <name>DELETE</name>
+      <synonym>
+        <key>ru</key>
+        <value>DELETE</value>
+      </synonym>
+      <httpMethod>DELETE</httpMethod>
+      <handler>ReservationsDELETE</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2f02d270-45af-4220-b0df-305bcbd397b5">
+    <name>tickets</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билеты</value>
+    </synonym>
+    <template>/tickets/{id}</template>
+    <methods uuid="2640b6ee-ccfb-4805-89f5-6bdc7cff5a02">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <httpMethod>GET</httpMethod>
+      <handler>TicketsGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="26998d31-e7c8-4b4b-bfdf-690a7f41b994">
+    <name>customer_tickets</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билеты клиента</value>
+    </synonym>
+    <template>/customers/{id}/tickets</template>
+    <methods uuid="d8d1d786-4ea9-482b-a1e0-4cf1595c0fe1">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <httpMethod>GET</httpMethod>
+      <handler>CustomerTicketsGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
