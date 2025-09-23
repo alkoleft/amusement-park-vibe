@@ -6,7 +6,7 @@
 - Презентация: [`Поезд LLM набирает ход, пора запрыгивать.pptx`](./Поезд%20LLM%20набирает%20ход,%20пора%20запрыгивать.pptx)
 - Конференция: [Трансляция](https://konf2025.bia-tech.ru/#stream) на сайте конференции
 
-[![Доклад](https://img.youtube.com/vi/peSYiDVLIvk/0.jpg)](https://www.youtube.com/watch?v=peSYiDVLIvk&t=1905s)
+[![Доклад](https://img.youtube.com/vi/peSYiDVLIvk/maxresdefault.jpg)](https://www.youtube.com/watch?v=peSYiDVLIvk&t=1905s)
 
 ### О чем проект
 - **Конфигурация**: `Управление парком аттракционов` — учебная, но близкая к реальности предметная область.
