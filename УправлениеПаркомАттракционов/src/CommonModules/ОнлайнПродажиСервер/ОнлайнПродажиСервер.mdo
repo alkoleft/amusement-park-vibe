@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12345678-1234-1234-1234-123456789101">
+  <name>ОнлайнПродажиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Онлайн продажи сервер</value>
+  </synonym>
+  <comment>Основной модуль для REST API онлайн продажи билетов</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>false</clientOrdinaryApplication>
+</mdclass:CommonModule>

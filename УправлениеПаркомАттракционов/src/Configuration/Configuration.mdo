@@ -937,6 +937,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПА</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПАРеализация</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформацииПА</commonModules>
+  <commonModules>CommonModule.ОнлайнПродажиСервер</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
@@ -950,6 +951,7 @@
   <xDTOPackages>XDTOPackage.Адрес</xDTOPackages>
   <xDTOPackages>XDTOPackage.КонтактнаяИнформация</xDTOPackages>
   <webServices>WebService.InterfaceVersion</webServices>
+  <httpServices>HTTPService.api</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПередУдалениемПрисоединенногоФайла</eventSubscriptions>
@@ -1314,6 +1316,7 @@
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documents>Document.ШкалаБонуснойПрограммы</documents>
   <documents>Document.СводныеПоказателиФилиалов</documents>
+  <documents>Document.БронированиеБилетов</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
@@ -1361,6 +1364,7 @@
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.СтатусыБронирования</enums>
   <reports>Report.ДетализацияПосещений</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
   <reports>Report.ПродажиПоАттракционам</reports>
@@ -1502,10 +1506,12 @@
   <informationRegisters>InformationRegister.УдалитьДвоичныеДанныеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.ЖурналОнлайнПродаж</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиентов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПосещенияАттракционов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БронированиеПосещений</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

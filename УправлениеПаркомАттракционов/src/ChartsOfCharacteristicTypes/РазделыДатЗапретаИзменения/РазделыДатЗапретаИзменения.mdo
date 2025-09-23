@@ -114,7 +114,7 @@
       <name>УдалитьОбработкаПерсональныхДанных</name>
       <description>(не используется) Обработка персональных данных</description>
       <type>
-        <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
+        <types>CatalogRef.Филиалы</types>
       </type>
     </items>
   </predefined>
